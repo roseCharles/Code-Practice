@@ -1,0 +1,146 @@
+/*modify the body of text*/
+body{
+  background-image: linear-gradient(white, #e6f7ff);
+  font-family: "Lucidatypewriter", monospace;
+}
+
+/* Remove the underline and bullet points from the nav-bar */
+a{
+  text-decoration: none;
+}
+.nav-list{
+  list-style-type: none;
+  margin: 0px ;
+  padding: 0;
+  width: auto;
+}
+/*Modify the navigation bar*/
+/* the outer appearence of the nav-bar*/
+#navbar{
+  font-size: 18px;
+  line-height: 1.5;
+  width: 200px;
+  margin-top: 0px;
+  margin-left: 0px;
+  background-color: #e6f7ff;
+  border: 1px solid white;
+  position: fixed;
+  overflow: auto; 
+  height:100%;
+  text-align: center;
+  font-family: "Courier", monospace;
+}
+
+@media only screen and (max-width: 600px) {
+     #main-doc {
+    position: relative;
+    margin-left: 0px;
+    margin-top: 220px;
+  }
+ #navbar{
+  font-size: 16px;
+  line-height: 0.9;
+  width: 100%;
+  margin: 0;
+  background-color: #e6f7ff;
+  border: 1px solid white;
+  position: fixed; 
+  height:auto;
+   top:0px;
+   left:0;
+   z-index: 1;
+  text-align: center;
+  font-family: "Courier", monospace;
+} 
+
+ section { padding-top: 200px; }
+  
+}
+
+
+/* actual list*/
+li .nav-link{
+  display: block;
+  padding: 8px 16px;
+  color: black
+}
+
+li .nav-link:hover{
+  background-color: #007ab3;
+  color: white;
+}
+/*the actual information*/
+
+header{
+  text-align: center;
+  font-size: 35px;
+  font-weight:200;
+  margin-bottom: 15px;
+  font-family: "Courier", monospace;
+  
+}
+
+
+section{
+  margin-top: 15px;
+  margin-bottom: 150px;
+}
+
+.info{
+  margin-left: 210px;
+}
+body{
+  text-align: left;
+  
+}
+
+@media only screen and (max-width: 600px) {
+    .info{
+  margin-left: 10px;
+}
+  }
+
+
+/*how the paragraphs look*/
+p{
+  margin-right: 100px;
+  color: #005266;
+}
+ul{
+  margin-right: 100px;
+  color: #005266;
+}
+ol{
+  margin-right: 100px;
+  color: #005266;
+}
+code {
+  display: block;
+  text-align: left;
+  position: relative;
+  word-break: normal;
+  word-wrap: normal;
+  background-color: #f7f7f7;
+  padding: 1px;
+  margin: 10px;
+  width: 75%;
+  height: 25%;
+  border-radius: 5px;
+}
+
+img{
+  display: block;
+  width: 60%;
+  height:50%;
+  margin: auto;
+}
+
+figcaption{
+  text-align: center;
+}
+footer{
+  text-align: right;
+  font-size: 20px;
+  position: relative;
+  margin-bottom: 100px;
+}
